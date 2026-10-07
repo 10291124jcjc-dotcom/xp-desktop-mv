@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.cache/
+.tmp/
+analysis/
+clips/
+mattes/
+render/
+out/
+models/
