@@ -2,13 +2,16 @@
 
 一个 Claude Code Skill：把一段 MV 剪辑重做成**节拍同步的 Windows XP 桌面录屏**。人物从原片抠出来，在桌面、窗口、任务栏上唱跳；所有界面都用代码画；每次点击、弹窗、切换都卡在拍子上；界面文案里埋科技圈双关梗。
 
+创作者：[@DDJCXX](https://x.com/DDJCXX)（推特）
+
 灵感来自 @anabology 的 BLISS。
 
 ## 示例：APT. → Pinkdows XP
 
-![左：原 MV，右：Pinkdows XP 重制](examples/apt/comparison.jpg)
+![左：原 MV，右：Pinkdows XP 重制](examples/apt/comparison.webp)
 
-- 对比视频：[`examples/apt/comparison.mp4`](examples/apt/comparison.mp4)（左原 MV，右重制，40.8 秒）
+（左：原 MV，右：Pinkdows XP 重制，40.8 秒。动图没有声音，带原声的版本是同目录下的 `comparison.mp4`。）
+
 - 主梗：歌名 APT. = Linux 的 `apt` 装软件命令。一个粉色的 Windows 不停冒出 apt：`sudo apt install apt` → "将同时安装：鼓 嘴唇 皮衣" → 头像贴纸轰炸 → 任务管理器里全是 apt.exe → "是否结束 APT.？[结束] [继续蹦迪]" → 关机时闪出"正在安装 Ubuntu…"
 - 制作：约 2 小时，大约用掉 Claude Max 一个 5 小时额度窗口的 26%
 - 审核：6 章各经过 3 轮"美术总监"子 Agent 打分，记录见 [`examples/apt/review_log.md`](examples/apt/review_log.md)
@@ -33,6 +36,6 @@ examples/apt/   完整实例：BRIEF、分镜生成器 build.py、定稿分镜�
 
 ## 版权说明
 
-- 代码和文档由本仓库作者与 Claude 共同编写。
+- 代码和文档由 [@DDJCXX](https://x.com/DDJCXX) 与 Claude 共同编写。
 - `examples/apt/` 中的对比视频、对比图和拼图包含歌曲《APT.》（ROSÉ & Bruno Mars）官方 MV 的画面和音频。版权归原权利人所有，这里只用于展示本工具的技术效果，不用于任何商业用途。如果权利人要求，会立即删除。
 - 界面中的"Pinkdows""Macrosoft"是戏仿名称，与 Microsoft 无关；没有使用任何真实的 Windows 标志、壁纸或系统音效。
